@@ -4,19 +4,19 @@
 }
 
 body{
-     height: 100vh;
      display: flex;
      justify-content:center;
      align-items: center;
      background: #10101E;
+     height: 100vh;
 }
 
 .datetime{
     color: #fff;
     background: #10101E;
     font-family: "segoe UI" sans-serif;
-    width: 340px;
-    padding: 15px ,10px;
+    width: 1000px;
+    padding: 150px ,100px;
     border: 3px solid #2e94e3;
     border-radius: 5px;
     -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(255,255,255,0.1));
@@ -30,14 +30,14 @@ body{
 }
 
 .date{
-    font-size: 20px;
+    font-size: 80px;
     font-weight: 600;
     text-align: center;
     letter-spacing: 3px;
 }
 
 .time{
-    font-size: 60px;
+    font-size: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +53,7 @@ body{
 
 .time span:last-child{
     background: #2e94e3;
-    font-size: 30px;
+    font-size: 80px;
     font-weight: 600;
     text-transform: uppercase;
     margin-top: 10px;
